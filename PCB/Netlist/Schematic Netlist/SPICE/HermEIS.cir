@@ -1,0 +1,160 @@
+.title KiCad schematic
+C7 +5V GND 0.1u
+U3 /chn2 /chn3 /chn4 /chn5 /chn6 /chn7 /Vref_o /chn1 GND /A_NCS /A_SDI /A_SDO3 /A_SCK GND +3.3V +5V MCP3008
+R7 GND GND 5R
+U7 /chn6 /chn7 /Vref_o /chn1 /chn2 /chn3 /chn4 /chn5 GND /A_NCS /A_SDI /A_SDO7 /A_SCK GND +3.3V +5V MCP3008
+C4 +5V GND 0.1u
+R1 GND GND 5R
+U1 /Vref_o /chn1 /chn2 /chn3 /chn4 /chn5 /chn6 /chn7 GND /A_NCS /A_SDI /A_SDO1 /A_SCK GND +3.3V +5V MCP3008
+C1 +5V GND 0.1u
+R3 GND GND 5R
+C3 +5V GND 0.1u
+U2 /chn1 /chn2 /chn3 /chn4 /chn5 /chn6 /chn7 /Vref_o GND /A_NCS /A_SDI /A_SDO2 /A_SCK GND +3.3V +5V MCP3008
+R2 GND GND 5R
+U5 /chn4 /chn5 /chn6 /chn7 /Vref_o /chn1 /chn2 /chn3 GND /A_NCS /A_SDI /A_SDO5 /A_SCK GND +3.3V +5V MCP3008
+C2 +5V GND 0.1u
+R4 GND GND 5R
+U6 /chn5 /chn6 /chn7 /Vref_o /chn1 /chn2 /chn3 /chn4 GND /A_NCS /A_SDI /A_SDO6 /A_SCK GND +3.3V +5V MCP3008
+C8 +5V GND 0.1u
+R6 GND GND 5R
+R8 GND GND 5R
+R9 GND GND 5R
+U8 /chn7 /Vref_o /chn1 /chn2 /chn3 /chn4 /chn5 /chn6 GND /A_NCS /A_SDI /A_SDO8 /A_SCK GND +3.3V +5V MCP3008
+C11 +5V GND 0.1u
+U4 /chn3 /chn4 /chn5 /chn6 /chn7 /Vref_o /chn1 /chn2 GND /A_NCS /A_SDI /A_SDO4 /A_SCK GND +3.3V +5V MCP3008
+J3 /WE2 GND BNC_connector
+J9 /WE3 GND BNC_connector
+J10 /WE5 GND BNC_connector
+J5 /WE6 GND BNC_connector
+J4 /WE4 GND BNC_connector
+J11 /WE7 GND BNC_connector
+J1 /CE GND BNC_connector
+J2 /CE GND BNC_connector
+J7 /V_ref GND BNC_connector
+J8 /WE1 GND BNC_connector
+U9 +3.3V -3V Net-_C9-Pad1_ Net-_C9-Pad2_ GND +3.3V LTC1983ES6-3-TRMPBF
+C10 +5V GND 0.1u
+J20 +5V GND +5V /+1.2V +5V /+1.2V /+1.8V /SYS_CLK5 +3.3V /USB_SCL +3.3V /USB_SDA +3.3V GND /W20 /T19 /W22 /T20 /U19 /P17 /V20 /N16 /C5 /M17 /A5 /M18 /D14 /P18 /C14 /R19 /E16 /D9 /D17 /C8 GND /+VCCO0 /D7 /D10 /D8 /C10 /L17 /D11 /K18 /C12 /D6 /D15 /C6 /C16 /A3 /B6 /A4 /A6 /B8 /C7 GND /+VCCO0 /A8 /A7 /B10 /C9 /A10 /A9 /C13 /B12 /A13 /A12 /C15 /B14 /A15 /A14 /C17 /B16 /A17 /A16 /A18 /B18 /C11 GND /A11 GND BTE-040-02-F-D-A
+J19 GND +3.3V unconnected-_J19-Pad3_ +3.3V /JTAG_TCK +3.3V /JTAG_TMS /JTAG_TDO /JTAG_TDI /F_VREF_1 /SYS_CLK4 unconnected-_J19-Pad12_ GND GND /A_NCS /A_SCK /A_SDI /A_SDO1 /A_SDO2 /A_SDO3 /A_SDO4 /A_SDO5 /A_SDO6 /A_SDO7 /A_SDO8 /D20 /D_7 /D_6 /D_5 /D_4 /D_3 /D_2 /D_1 /D_0 /+VCCO1 GND /FQ_UD /K20 /FT_NCS /FT_SCK /FT_SDI /FT_SDO /Rin_scl /Rin_sda /P21 /R20 /P22 /DAC1_LDAC /DAC1_NCS /DAC1_SCK /DAC1_SDI /N22 /L20 /F_RST_I /+VCCO1 GND /F_RST_O /L19 /H21 /K21 /H22 /K22 /F21 /G20 /F22 /G22 /D21 /E20 /D22 /E22 /B21 /C20 /B22 /C22 /A21 /A20 /J20 GND /J22 GND BTE-040-02-F-D-A
+J6 /CV_S1 GND BNC_connector
+C37 Net-_C37-Pad1_ GND 10u
+SW3 unconnected-_SW3-Pad1_ Net-_C37-Pad1_ +3.3V SW_SPDT
+C45 Net-_C45-Pad1_ GND 10u
+C44 Net-_C44-Pad1_ GND 10u
+C35 +5V GND 100n
+U24 +5V GND /V20 /N16 /C5 /T20 /U19 /P17 /C22 /A21 /T19 /J20 /A20 /J22 /W20 /L19 /H21 /K21 /H22 /K22 /F21 /G20 +3.3V /F22 /G22 GND /D21 /E20 /D22 /E22 /B21 /C20 /B22 /W22 GND Net-_C44-Pad1_ +5V +5V Net-_C45-Pad1_ GND GND Net-_C37-Pad1_ GND Net-_C37-Pad1_ Net-_C37-Pad1_ GND GND +5V /Vref_r nVDD_2 /chn1_r nVDD_2 /chn2_r nVDD_2 /chn3_r nVDD_2 /chn4_r nVDD_2 /chn5_r nVDD_2 /chn6_r nVDD_2 /chn7_r nVDD_2 AD7606
+C36 +3.3V GND 100n
+C33 +5V GND 0.1u
+C32 +5V GND 10u
+C5 +3.3V GND 10u
+C6 -3V GND 10u
+S2 /EIS_S3 /V_dds /SIN_1 /SIN_2 Net-_S2-PadS1_ Net-_S2-PadS1_ OS103012MU1QP1
+S1 /CV_S1 /CV_ref /CV_S2 unconnected-_S1-Pad4_ Net-_S1-PadS1_ Net-_S1-PadS1_ OS103012MU1QP1
+U23 +5V /DAC1_NCS /DAC1_SCK /DAC1_SDI /DAC1_LDAC /CV_DAC GND /F_EIS_DDS MCP4822
+C34 /F_EIS_DDS GND 1u
+C46 /CV_DAC GND 1u
+D1 GND unconnected-_D1-Pad2_ +5V BZX84Cxx
+D2 GND unconnected-_D2-Pad2_ +3.3V BZX84Cxx
+D3 -3V unconnected-_D3-Pad2_ GND BZX84Cxx
+R5 +3.3V Net-_R5-Pad2_ 1k
+SW1 Net-_R5-Pad2_ V_rst GND GND 8-1437565-0
+C9 Net-_C9-Pad1_ Net-_C9-Pad2_ 1u
+J21 /A_NCS /A_SCK /A_SDI /A_SDO1 /A_SDO2 /A_SDO3 /A_SDO4 /A_SDO5 /A_SDO6 /A_SDO7 /A_SDO8 /D20 /D_7 /D_6 /D_5 /D_4 /D_3 /D_2 /D_1 /D_0 /FQ_UD /K20 /FT_NCS /FT_SCK /FT_SDI /FT_SDO /Rin_scl /Rin_sda /P21 /R20 /P22 /DAC1_LDAC 6-534206-6
+J18 /C22 /A21 /A20 /J20 /J22 /W20 /T19 /W22 /T20 /U19 /P17 /V20 /N16 /C5 /M17 /A5 /M18 /D14 /P18 /C14 /R19 /E16 /D9 /D17 /C8 /D7 /D10 /D8 /C10 /L17 /D11 /K18 6-534206-6
+J12 /JTAG_TCK /JTAG_TMS /JTAG_TDO /JTAG_TDI unconnected-_J12-PadA5_ /SYS_CLK4 /SYS_CLK5 /USB_SCL /USB_SDA /+VCCO1 /+VCCO0 /+1.8V /+1.8V /+1.2V /+1.2V +5V /DAC1_NCS /DAC1_SCK /DAC1_SDI /N22 /L20 /F_RST_I /F_RST_O +5V +5V -3V -3V -0v5 nVDD_2 GND +3.3V +3.3V 6-534206-6
+J22 GND /SQ_1 /SQ_2 unconnected-_J22-PadA4_ /A18 /F_VREF_1 /V_ref /chn1_r /chn2_r /chn3_r /chn4_r /chn5_r /chn6_r /chn7_r GND GND /L19 /H21 /K21 /H22 /K22 /F21 /G20 /F22 /G22 /D21 /E20 /D22 /E22 /B21 /C20 /B22 6-534206-6
+J17 /Vref_o /chn1 /chn2 /chn3 /chn4 /chn5 /chn6 /chn7 /WE1 /WE2 /WE3 /WE4 /WE5 /WE6 /WE7 /F_EIS_DDS /CV_S2 /EIS_S3 /SIN_2 /SIN_1 /V_ref /V_ref /CE /CE /WE1 /WE2 /WE3 /WE4 /WE5 /WE6 /WE7 /CV_DAC 6-534206-6
+J13 GND /D_7 /D_6 /D_5 /D_4 /D_3 /D_2 /D_1 /D_0 +3.3V PPTC101LFBN-RC
+J14 unconnected-_J14-Pad1_ unconnected-_J14-Pad2_ GND /FT_SCK /FT_SDO /FT_SDI /FT_NCS unconnected-_J14-Pad8_ unconnected-_J14-Pad9_ unconnected-_J14-Pad10_ unconnected-_J14-Pad11_ BCS-111-LM-S-TE
+J15 /SIN_2 /SIN_1 /SQ_2 /SQ_1 GND /N22 /L20 /FQ_UD /K20 +3.3V PPTC101LFBN-RC
+J16 unconnected-_J16-Pad1_ unconnected-_J16-Pad2_ unconnected-_J16-Pad3_ unconnected-_J16-Pad4_ unconnected-_J16-Pad5_ unconnected-_J16-Pad6_ unconnected-_J16-Pad7_ unconnected-_J16-Pad8_ unconnected-_J16-Pad9_ unconnected-_J16-Pad10_ unconnected-_J16-Pad11_ BCS-111-LM-S-TE
+R15 /V_dds Net-_R14-Pad2_ 100k
+U10 -0v5 Net-_R11-Pad2_ GND +3.3V GND Net-_R14-Pad2_ Net-_SW2-Pad1_ unconnected-_U10-Pad8_ unconnected-_U10-Pad9_ /CE /V_ref Net-_SW2-Pad2_ -3V GND Net-_R10-Pad2_ nVDD_2 LTC6082xGN
+R13 Net-_R11-Pad2_ -0v5 11k
+R11 +3.3V Net-_R11-Pad2_ 73.2k
+R12 Net-_R10-Pad2_ nVDD_2 50k
+R10 +3.3V Net-_R10-Pad2_ 100k
+U11 +3.3V GND /Rin_scl /Rin_sda Net-_SW2-Pad1_ Net-_R14-Pad2_ MCP4017-xxxxLT
+C12 +3.3V GND 0.1u
+R14 -0v5 Net-_R14-Pad2_ 100k
+SW2 Net-_SW2-Pad1_ Net-_SW2-Pad2_ /CV_ref SW_SPDT
+C15 +3.3V GND 0.1u
+R22 Net-_R20-Pad2_ Net-_R22-Pad2_ 100k
+U13 /chn2_r /WE2 GND +3.3V GND Net-_R16-Pad2_ Net-_R18-Pad2_ unconnected-_U13-Pad8_ unconnected-_U13-Pad9_ /chn3_r /WE3 GND -3V GND Net-_R20-Pad2_ Net-_R22-Pad2_ LTC6082xGN
+C17 /chn3 GND 1p
+C16 -3V GND 0.1u
+R23 Net-_R22-Pad2_ /chn3 100k
+R16 /chn2_r Net-_R16-Pad2_ 100k
+R17 nVDD_2 Net-_R16-Pad2_ 100k
+U12 +3.3V GND /P21 /R20 /chn2_r /WE2 MCP4017-xxxxLT
+U14 +3.3V GND /P21 /R20 /chn3_r /WE3 MCP4017-xxxxLT
+C14 +3.3V GND 0.1u
+R20 /chn3_r Net-_R20-Pad2_ 100k
+R21 nVDD_2 Net-_R20-Pad2_ 100k
+R19 Net-_R18-Pad2_ /chn2 100k
+R18 Net-_R16-Pad2_ Net-_R18-Pad2_ 100k
+C13 /chn2 GND 1p
+C20 +3.3V GND 0.1u
+R30 Net-_R28-Pad2_ Net-_R30-Pad2_ 100k
+U16 /chn4_r /WE4 GND +3.3V GND Net-_R24-Pad2_ Net-_R26-Pad2_ unconnected-_U16-Pad8_ unconnected-_U16-Pad9_ /chn5_r /WE5 GND -3V GND Net-_R28-Pad2_ Net-_R30-Pad2_ LTC6082xGN
+C22 /chn5 GND 1p
+C21 -3V GND 0.1u
+R31 Net-_R30-Pad2_ /chn5 100k
+R24 /chn4_r Net-_R24-Pad2_ 100k
+R25 nVDD_2 Net-_R24-Pad2_ 100k
+U15 +3.3V GND /P21 /R20 /chn4_r /WE4 MCP4017-xxxxLT
+U17 +3.3V GND /P21 /R20 /chn5_r /WE5 MCP4017-xxxxLT
+C19 +3.3V GND 0.1u
+R28 /chn5_r Net-_R28-Pad2_ 100k
+R29 nVDD_2 Net-_R28-Pad2_ 100k
+R27 Net-_R26-Pad2_ /chn4 100k
+R26 Net-_R24-Pad2_ Net-_R26-Pad2_ 100k
+C18 /chn4 GND 1p
+U18 /Vref_r Net-_R32-Pad2_ GND +3.3V GND Net-_R34-Pad2_ /Vref_o unconnected-_U18-Pad8_ unconnected-_U18-Pad9_ /chn1_r /WE1 GND -3V GND +3.3V Net-_R39-Pad2_ LTC6082xGN
+R40 Net-_R39-Pad2_ /chn1 100k
+C26 /chn1 GND 1p
+C25 -3V GND 0.1u
+C23 +3.3V GND 0.1u
+R38 nVDD_2 +3.3V 100k
+R37 /chn1_r +3.3V 100k
+U19 +3.3V GND /P21 /R20 /chn1_r /WE1 MCP4017-xxxxLT
+C24 +3.3V GND 0.1u
+R39 +3.3V Net-_R39-Pad2_ 100k
+R34 /Vref_r Net-_R34-Pad2_ 100k
+R35 nVDD_2 Net-_R34-Pad2_ 100k
+R32 /V_ref Net-_R32-Pad2_ 100k
+R36 Net-_R34-Pad2_ /Vref_o 100k
+R33 Net-_R32-Pad2_ /Vref_r 100k
+C29 +3.3V GND 0.1u
+R47 Net-_R45-Pad2_ Net-_R47-Pad2_ 100k
+U21 /chn6_r /WE6 GND +3.3V GND Net-_R41-Pad2_ Net-_R43-Pad2_ unconnected-_U21-Pad8_ unconnected-_U21-Pad9_ /chn7_r /WE7 GND -3V GND Net-_R45-Pad2_ Net-_R47-Pad2_ LTC6082xGN
+C31 /chn7 GND 1p
+C30 -3V GND 0.1u
+R48 Net-_R47-Pad2_ /chn7 100k
+R41 /chn6_r Net-_R41-Pad2_ 100k
+R42 nVDD_2 Net-_R41-Pad2_ 100k
+U20 +3.3V GND /P21 /R20 /chn6_r /WE6 MCP4017-xxxxLT
+U22 +3.3V GND /P21 /R20 /chn7_r /WE7 MCP4017-xxxxLT
+C28 +3.3V GND 0.1u
+R45 /chn7_r Net-_R45-Pad2_ 100k
+R46 nVDD_2 Net-_R45-Pad2_ 100k
+R44 Net-_R43-Pad2_ /chn6 100k
+R43 Net-_R41-Pad2_ Net-_R43-Pad2_ 100k
+C27 /chn6 GND 1p
+C42 +3.3V GND 0.1u
+U25 Net-_C39-Pad2_ Net-_C39-Pad2_ Net-_C41-Pad1_ +3.3V Net-_C40-Pad1_ /EIS_S3 /EIS_S3 unconnected-_U25-Pad8_ unconnected-_U25-Pad9_ Net-_R53-Pad2_ Net-_R53-Pad1_ GND -3V GND Net-_R55-Pad2_ /CV_S2 LTC6082xGN
+R57 Net-_R55-Pad2_ /CV_S2 100k
+R55 Net-_R53-Pad2_ Net-_R55-Pad2_ 100k
+C43 -3V GND 0.1u
+R49 Net-_C39-Pad2_ Net-_C38-Pad1_ 3k
+C40 Net-_C40-Pad1_ GND 75p
+R50 Net-_C38-Pad1_ Net-_C40-Pad1_ 3k
+C38 Net-_C38-Pad1_ /EIS_S3 130p
+R53 Net-_R53-Pad1_ Net-_R53-Pad2_ 100k
+R54 /CV_DAC Net-_R53-Pad1_ 100k
+R56 nVDD_2 Net-_R53-Pad1_ 100k
+C41 Net-_C41-Pad1_ GND 75p
+R51 /F_EIS_DDS Net-_C39-Pad1_ 3k
+R52 Net-_C39-Pad1_ Net-_C41-Pad1_ 3k
+C39 Net-_C39-Pad1_ Net-_C39-Pad2_ 130p
+.end

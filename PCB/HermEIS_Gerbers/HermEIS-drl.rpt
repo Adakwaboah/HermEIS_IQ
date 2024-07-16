@@ -1,0 +1,33 @@
+Drill report for HermEIS.kicad_pcb
+Created on Thursday, November 17, 2022 at 07:15:41 PM
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  In1.Cu                    in1
+    L3 :  In2.Cu                    in2
+    L4 :  B.Cu                      back
+
+
+Drill file 'HermEIS-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.400mm  0.0157"  (848 holes)
+    T2  0.800mm  0.0315"  (22 holes)
+    T3  0.889mm  0.0350"  (160 holes)
+    T4  0.900mm  0.0354"  (8 holes)
+    T5  1.016mm  0.0400"  (4 holes)
+    T6  1.067mm  0.0420"  (20 holes)
+    T7  1.200mm  0.0472"  (11 holes)
+    T8  1.400mm  0.0551"  (4 holes)
+    T9  1.600mm  0.0630"  (44 holes)
+    T10  3.600mm  0.1417"  (4 holes)
+
+    Total plated holes count 1125
+
+
+Drill file 'HermEIS-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0

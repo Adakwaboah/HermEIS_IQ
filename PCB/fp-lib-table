@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "spdt_sw")(type "KiCad")(uri "${HERMEIS}/Footprints/sw_spdt.pretty")(options "")(descr ""))
+  (lib (name "Footprints")(type "KiCad")(uri "${HERMEIS}/Footprints")(options "")(descr ""))
+)
